@@ -1,0 +1,37 @@
+<configuration>
+    <property>
+        <name>candle.width</name>
+        <value>1000</value>
+        <description>Width of candle in the number of milliseconds</description>
+    </property>
+    <property>
+        <name>candle.securities</name>
+        <value>.*</value>
+        <description>Template of assets (regular expression)</description>
+    </property>
+    <property>
+        <name>candle.date.from</name>
+        <value>19000101</value>
+        <description>First day of a time period (YYYYMMDD)</description>
+    </property>
+    <property>
+        <name>candle.date.to</name>
+        <value>20200101</value>
+        <description>First day after last day of a time period (YYYYMMDD)</description>
+    </property>
+    <property>
+        <name>candle.time.from</name>
+        <value>1000</value>
+        <description>Start time (HHMM) of the first candle</description>
+    </property>
+    <property>
+        <name>candle.time.to</name>
+        <value>1800</value>
+        <description>End time (HHMM) of the last candle</description>
+    </property>
+    <property>
+        <name>candle.num.reducers</name>
+        <value>16</value>
+        <description>Number of reducers</description>
+    </property>
+</configuration>
